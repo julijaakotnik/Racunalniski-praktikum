@@ -1,4 +1,4 @@
-# Računalniški-praktikum
+# Računalniški praktikum
 Bližnjica, da kopiraš označeno v odložišče:
 ```markdown
 Ctrl + C
