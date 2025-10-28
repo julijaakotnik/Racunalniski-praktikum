@@ -1,6 +1,9 @@
 body {
     /*  Barva pisave pod značko oz. oznako  */
-    color: #330b74; 
+    h1 {
+        color: #330b74; 
+    }
+
     /*  Določanje pisave: brskalnik uporabi prvo v seznamu pisav, ki jo ima uporabnik nameščeno.
        Če ni nameščena nobena od naštetih pisav, se uporabi privzeta pisava brskalnika. */
     font-family: Garamond, "Hoefler Text", "Times New Roman", Times, serif;
@@ -30,4 +33,29 @@ a:active { color:#990000; outline:none; }
 code {
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     color: #009966;
+}
+h2 {
+    margin-top: 2em;
+    border-top: 1px;
+    border-top-color: #a833c0;
+    border-top-style: solid;
+    padding-top: 0,5em;
+    color: darkblue;
+
+}
+#uvod {
+    padding: 2em;
+    background-color: rgb(51, 0, 102, 0.1);
+}
+.slika {
+    font-size: 0,9em;
+    width: 40%;
+    height: auto;
+    text-align: left;
+}
+.slika img {
+    width: 100%;
+    height: auto;
+    
+
 }
